@@ -1,3 +1,4 @@
+#Write a Python program to find maximum between two numbers using if else
 x = int(input("Input first num: "))
 y = int(input("Input second num: "))
 
@@ -5,3 +6,16 @@ if x > y:
     print(f"{x} is maximum.")
 else:
     print(f"{y} is maximum.")
+
+#Write a Python program to find maximum between three numbers using ladder if else or nested if
+x = int(input("Input first num: "))
+y = int(input("Input second num: "))
+z = int(input("Input third num: "))
+if x>y and x>z:
+    print(f"{x} is maximum.")
+elif y>x and y>z:
+    print(f"{y} is maximum.")
+else:
+    print(f"{z} is maximum.")
+
+
