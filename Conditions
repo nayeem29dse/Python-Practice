@@ -17,5 +17,30 @@ elif y>x and y>z:
     print(f"{y} is maximum.")
 else:
     print(f"{z} is maximum.")
+#Alternative
+x = int(input("Input first num: "))
+y = int(input("Input second num: "))
+z = int(input("Input third num: "))
+if y>x>z:
+    print(f"{x} is maximum.")
+elif x>y>z:
+    print(f"{y} is maximum.")
+else:
+    print(f"{z} is maximum.")
+
+#Alternative
+x = int(input("Input first num: "))
+y = int(input("Input second num: "))
+z = int(input("Input third num: "))
+if x>y:
+    if x>z:
+        print(f"{x} is maximum.")
+    else:
+        print(f"{z} is maximum.")
+else:
+    if y>z:
+        print(f"{y} is maximum.")
+    else:
+        print(f"{z} is maximum.")
 
 
