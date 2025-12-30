@@ -64,4 +64,11 @@ elif x%11==0:
 else:
     print(x, "is not divisable by either 5 or 11")
 
+#Write a C program to check leap year using if else.
+x = int(input("Input a year: "))
+if x%4==0 and x%100==0 or x%400==0:
+    print(x, "is a leap year")
+else:
+    print(x,'is not aleap year')
+
 
