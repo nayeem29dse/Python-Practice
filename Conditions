@@ -70,5 +70,15 @@ if x%4==0 and x%100==0 or x%400==0:
     print(x, "is a leap year")
 else:
     print(x,'is not aleap year')
+#Write a Python program to check whether the given character is alphabet or not using if else.
+x = (input("Input a Character: "))
+if "a"<=x<="z" or "A"<=x<="Z":
+    print(x,"is a character")
+else:
+    print(x,"is a not character")
 
-
+#Alternative
+if x.isalpha():
+    print(x, "is a character")
+else:
+    print(x, "is not a character")
