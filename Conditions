@@ -82,3 +82,13 @@ if x.isalpha():
     print(x, "is a character")
 else:
     print(x, "is not a character")
+
+#Write a Python program to check whether an alphabet is vowel or consonant using if else.
+x = input("Input a Character: ").lower()
+if x.isalpha():
+    if len(x)==1 and x in "aeiou":
+        print(x, 'is a vowel')
+    else:
+        print(x,'is a consonent')
+else:
+    print(x, 'is not a alphabet')
